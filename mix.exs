@@ -23,7 +23,7 @@ defmodule HyperMap.Mixfile do
   defp deps do
     [
       # Development
-      {:ex_doc, "> 0.0.0", only: :docs},
+      {:ex_doc, "> 0.0.0", only: :dev},
       {:credo, "> 0.0.0", only: :dev}
     ]
   end
